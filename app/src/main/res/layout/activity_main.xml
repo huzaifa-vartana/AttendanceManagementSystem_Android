@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:outlineAmbientShadowColor="@color/black"
+    android:padding="20dp"
+    tools:context="com.example.Project.Image_capturing">
+
+
+    <ImageView
+        android:layout_width="284dp"
+        android:layout_height="377dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:src="@drawable/scanner" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/baloo"
+        android:text="@string/show_image_info"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/show_image_text"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/emailshape"
+
+        android:fontFamily="sans-serif-black"
+        android:text="@string/show_image_text1"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        style="@style/Theme.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="124dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/buttonstates"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="@color/black"
+            android:text="@string/btn_string"
+            android:textColor="@color/color2" />
+
+        <Button
+            android:id="@+id/btn_manual"
+            android:layout_width="124dp"
+            android:layout_height="47dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/buttonstates"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="@color/black"
+            android:text="@string/btn_string_manuall"
+            android:textColor="@color/color2" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

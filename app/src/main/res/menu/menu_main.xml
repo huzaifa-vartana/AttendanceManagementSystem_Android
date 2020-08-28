@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/real"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/face_detect"
+            android:icon="@drawable/face_detection"
+            android:title="@string/attendance" />
+
+        <item
+            android:id="@+id/record"
+            android:icon="@drawable/identity"
+            android:title="Records" />
+
+
+    </group>
+    <group>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_snotes"
+            android:icon="@drawable/share"
+            android:title="Show Notes" />
+        <item
+            android:id="@+id/log"
+            android:icon="@drawable/network"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>
+
+
+
+

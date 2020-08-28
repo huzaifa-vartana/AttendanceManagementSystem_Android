@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="yellow">#586CDC</color>
+    <color name="color2">#FFC300</color>
+    <color name="black">#00030B</color>
+    <color name="color4">#F57F17</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="newcolor">#8C9EFF</color>
+
+    <color name="colorAccent">#0C887D</color>
+</resources>
